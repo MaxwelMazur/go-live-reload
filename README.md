@@ -75,7 +75,7 @@ docker-compose run --rm app air init
 ```
 
 
-Let's start up our container and see our project come alive.
+- Let's start up our container and see our project come alive.
 ```shell
 $ docker compose up
 ```
