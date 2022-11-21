@@ -61,11 +61,6 @@ docker-compose run --rm app go mod init github.com/MaxwelMazur/go-live-reload
 Air Setup
 - We should run our Air init from inside of our app container (defined in our compose yaml file). To do this, let's run the follow command:
 
-```shell
-docker compose run --rm app air init
-```
-
-
 - Note: I prefer using run with the --rm flag because I don't like having a bunch of random containers laying around from commands I've run in them.
 
 - You should see output similar to:
